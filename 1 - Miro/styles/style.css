@@ -31,3 +31,8 @@ header a {
     text-decoration: none;
     color: #050038;
 }
+
+.sectionList li::marker {
+    content: url(../images/check.svg);
+    color: #05003899;
+}
