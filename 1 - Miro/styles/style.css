@@ -1,6 +1,26 @@
-.heroButton {
-    background-color: #4262FF;
-    color: #FFFFFF;
+body {
+    margin: 0px;
+}
+
+nav {
+    padding: 33px 50px;
+    border-bottom: 1px #F0F0F0 solid;
+    margin-bottom: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 0 0 17px 0;
+}
+
+h2 {
+    margin: 0 0 19px 0;
 }
 
 h1,
@@ -18,13 +38,25 @@ p {
     line-height: 24px;
 }
 
+footer {
+    background: #050038;
+    padding: 47px 40px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
 .heroText {
     color: #050038;
+    margin: 0 0 55px 0;
 }
 
 .sectionText {
-
     color: #05003899;
+    margin: 0 0 40px 0;
 }
 
 header a {
@@ -35,4 +67,28 @@ header a {
 .sectionList li::marker {
     content: url(../images/check.svg);
     color: #05003899;
+}
+
+.heroButton {
+    height: 48px;
+    border-radius: 32px;
+    border: 1px solid #4262FF;
+    background-color: #4262FF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.heroForm input[type="text"] {
+    border-radius: 32px;
+    border: 1px rgba(155, 153, 175, 1) solid;
+    height: 38px;
+    padding: 5px 10px;
+}
+
+.heroForm+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;
+    margin: 8px 0 52px 0;
 }
