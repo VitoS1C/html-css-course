@@ -1,21 +1,68 @@
+body {
+    margin: 0;
+    background-color: #0F0F14;
+}
+
 main {
     background-color: #1E1F29;
+    border-radius: 10px;
+    padding: 48px;
 }
 
 h1 {
     color: #FAFAFA;
+    text-align: center;
 }
 
 label {
-    color: #FAFAFA;
+    position: absolute;
+    font-size: 12px;
+    color: #AFB2BF;
+    top: 12px;
+    left: 48px;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: rgb(158, 153, 168);
 }
 
 textarea,
 input,
 select {
     background-color: #2E2D3D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 697px;
+    padding: 27px 48px 12px;
 }
 
-button {
+textarea {
+    height: 135px;
+}
+
+input[type="submit"] {
     background-color: #6C38CC;
+    width: 697px;
+    height: 46px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 0
+}
+
+.field {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
 }
