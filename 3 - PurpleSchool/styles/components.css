@@ -1,0 +1,41 @@
+.section_light {
+    background-color: var(--color-bg-light);
+}
+
+.button {
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    width: 179px;
+    height: 54px;
+    padding: 16px 32px;
+    border-radius: var(--border-10);
+}
+
+.button_primary {
+    background-color: var(--color-primary);
+    border: none;
+}
+
+.button_ghost {
+    background: none;
+    border: 1px;
+    border-color: var(--color-stroke);
+    border-style: solid;
+    width: 149px;
+}
+
+.button_play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-family: 'Fira Sans' sans-serif;
+    bottom: 70px;
+    left: 60px;
+    position: absolute;
+    width: 168px;
+    background-color: var(--color-bg-light);
+    border: none;
+}
