@@ -1,0 +1,32 @@
+.hero {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__h1 {
+    color: var(--color-text);
+    font-family: 'Fira Sans';
+    margin: 0;
+    font-size: 54px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.hero__h1_gradient {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__cta {
+    display: flex;
+    gap: 32px;
+}
+
+.hero__video {
+    position: relative;
+}
