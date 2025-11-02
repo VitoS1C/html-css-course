@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--color-bg-medium);
+    background-color: var(--color-bg-light);
 }
 
 .header__wrapper {
@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 960px) {
+    .header__wrapper {
+        padding: 40px 243px;
+    }
+
     .header__main_logo {
         max-width: 174px;
     }
@@ -76,5 +80,11 @@
 
     .header__mobile-menu-button {
         display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__wrapper {
+        padding: 29px 24px;
     }
 }
