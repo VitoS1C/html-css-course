@@ -39,3 +39,47 @@
     background-color: var(--color-bg-light);
     border: none;
 }
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.social-icons__icon {
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--border-8);
+    padding: 11px;
+    width: 48px;
+    height: 48px;
+}
+
+.social-icons__icon:hover {
+    background-color: var(--color-bg-medium);
+}
+
+@media (max-width: 1200px) {
+    .button_play {
+        bottom: 16px;
+        left: 16px;
+        font-size: 17px;
+        padding: 12px 24px;
+    }
+
+    .button_play img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .button {
+        padding: 12px 24px;
+    }
+
+    .button_primary {
+        width: 163px;
+    }
+
+    .button_ghost {
+        width: 133px;
+    }
+}
