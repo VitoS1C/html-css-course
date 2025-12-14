@@ -35,6 +35,10 @@
     gap: 32px;
 }
 
+.button_more {
+    text-align: center;
+}
+
 .hero__video {
     text-align: center;
 }
